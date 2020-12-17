@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300&display=swap');
+
+body{
+    font-family: 'Prata', serif;
+    background-image: url('bg7.jpg');
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: overlay;
+    background-size: 100%, 100%;
+}
+
+.tma{
+    display: flex;
+    flex-flow: column wrap;
+    flex-basis: 33%;
+}
+
+li{
+    color: white;
+    font-family: 'Jura', sans-serif;
+    font-weight: white;
+}
+
+.grid{
+    
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+    flex-basis: 33%;
+   
+}
+
+.grid img{
+    width: 300px;
+    height: 300px;
+    float: top;
+}
+
+.grid p{
+    text-align: center;
+    color: white;
+}x
+
+.top{
+    position: sticky;
+    display: block;
+    font-family: 'Prata';
+}
+
+.top a{
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
+#xrd1{
+    font-family: 'Jockey One', sans-serif;
+    background-color: black;
+    color: white;
+    font-size: 70px;
+    margin-left: 69%;
+}
+
+.sticky{
+    position: sticky;
+    top: 0;
+    color: white;
+    font-family: 'Prata';
+}
+
+.sticky a{
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
+.sticky a:hover{
+    background-color: #236C26;
+}
+
+.item{
+    flex-basis: 30%;
+    justify-content: space-around;
+    margin: 22px;
+    border-radius: 20px;
+    filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.item:hover{
+    transform: scale(1.09);
+    filter: blur(0px);
+    box-shadow: 5px 5px 3px 1px #eeec6d;
+}
+
+.item img{
+    width: 300px;
+    height: 300px;
+    float: center;
+    margin-left: 60px;
+}
+
+.item p{
+    color: white;
+    font-family: 'Jura', sans-serif;
+    font-weight: bold;
+}
+
+.grid a{
+    text-decoration: none;
+    flex-basis: 33%;
+}
